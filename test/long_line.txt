@@ -1,0 +1,1 @@
+This is a very long line that contains many words and should help test the word counting functionality of the wc implementation. It demonstrates how the tool handles lines with significant content.
