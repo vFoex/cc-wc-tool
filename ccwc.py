@@ -72,9 +72,6 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    # Determine which counters to use
-    has_option = args.c or args.m or args.l or args.w
-
     if args.l:
         count_fns = [count_lines]
     elif args.m:
